@@ -1,0 +1,169 @@
+/* =========================
+   Main Background
+========================= */
+
+.stApp{
+    background:#F4F7FC;
+}
+
+
+/* =========================
+   Sidebar
+========================= */
+
+section[data-testid="stSidebar"]{
+    background:#1E293B !important;
+    min-width:260px !important;
+    max-width:260px !important;
+}
+
+/* Sidebar Text */
+
+section[data-testid="stSidebar"] .stMarkdown,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] span{
+    color:#FFFFFF !important;
+}
+
+
+/* =========================
+   Option Menu
+========================= */
+
+.nav-link{
+    background:transparent !important;
+    color:#FFFFFF !important;
+    border-radius:10px;
+    margin:5px;
+    padding:10px;
+    font-size:16px;
+}
+
+.nav-link:hover{
+    background:#334155 !important;
+}
+
+.nav-link-selected{
+    background:#2563EB !important;
+    color:#FFFFFF !important;
+    border-radius:10px;
+}
+
+
+/* =========================
+   Title
+========================= */
+
+h1{
+    color:#2563EB !important;
+    text-align:center;
+    font-size:42px;
+    font-weight:700;
+}
+
+h2,
+h3{
+    color:#111827;
+}
+
+
+/* =========================
+   KPI Cards
+========================= */
+
+div[data-testid="metric-container"]{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    border:1px solid #E5E7EB;
+    box-shadow:0px 6px 18px rgba(0,0,0,0.08);
+}
+
+div[data-testid="metric-container"]:hover{
+    transform:translateY(-3px);
+    transition:0.3s;
+    box-shadow:0px 10px 25px rgba(37,99,235,.25);
+}
+
+/* Metric Label */
+
+div[data-testid="metric-container"] label{
+    color:#6B7280;
+    font-size:16px;
+}
+
+/* Metric Value */
+
+div[data-testid="metric-container"] div{
+    color:#111827;
+    font-size:30px;
+    font-weight:bold;
+}
+
+
+/* =========================
+   Buttons
+========================= */
+
+.stButton > button{
+    width:100%;
+    background:#2563EB;
+    color:white;
+    border:none;
+    border-radius:10px;
+    height:45px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.stButton > button:hover{
+    background:#1D4ED8;
+}
+
+
+/* =========================
+   DataFrame
+========================= */
+
+div[data-testid="stDataFrame"]{
+    background:white;
+    border-radius:15px;
+    border:1px solid #E5E7EB;
+}
+
+
+/* =========================
+   Divider
+========================= */
+
+hr{
+    border:1px solid #E5E7EB;
+}
+
+
+/* =========================
+   Expander
+========================= */
+
+.streamlit-expanderHeader{
+    background:white;
+}
+
+
+/* =========================
+   Paragraph
+========================= */
+
+p{
+    color:#374151;
+}
+
+
+/* =========================
+   Tabs
+========================= */
+
+button[data-baseweb="tab"]{
+    font-size:16px;
+    font-weight:bold;
+}
